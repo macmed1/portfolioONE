@@ -9,11 +9,11 @@ body {
 }
 
 img {
-  width: 80%;
+  width: 100%;
 }
 
 img.rounded {
-  border-radius: 8px;
+  border-radius:0 px;
 }
 
 main h2 {
@@ -43,12 +43,17 @@ header {
 }
 
 header h1 {
-  color: #eff0e5;
+  color: #2f3027;
   text-align: center;
   margin: 0;
   padding: 20px 0;
   font-family: 'Nanum Pen Script', cursive;
   font-size: 56px;
+}
+#Contact {
+  background-color:  #c5c0b8;
+  padding: 12px;
+  margin-bottom: 10px;
 }
 
 
@@ -67,6 +72,12 @@ main .intro {
 /* Groups & Items  (Mobile First) */
 .wrapper {
   width: 100%;
+}
+footer{
+  background-color: #c2bfbb;
+  margin-bottom: 40px;
+  text-align: center;
+  height: 145px
 }
 
 .group {
@@ -108,5 +119,17 @@ main .intro {
 #about {
   background-color: #c5c0b8;
   padding: 20px 0 30px 0;
-  margin: 120px 0;
+  margin: 12px 0;
 }
+form {
+  padding-right: 6px;
+  width: 90%;
+}
+form input,
+form textarea{
+width: 100%;
+margin-bottom:20px;
+}
+form textarea{
+  height:160px;
+  }
